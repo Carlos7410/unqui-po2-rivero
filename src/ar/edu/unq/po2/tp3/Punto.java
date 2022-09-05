@@ -6,12 +6,12 @@ public class Punto {
 	private float y;
 	
 	public Punto(float x, float y) {
-		setXY(x, y);
+		this.setXY(x, y);
 	}
 	
 	public void setXY(float x, float y) {
-		setX(x);
-		setY(y);
+		this.setX(x);
+		this.setY(y);
 	}
 	
 	public float getX() {
